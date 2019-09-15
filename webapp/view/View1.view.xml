@@ -3,7 +3,18 @@
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
-					<content></content>
+					<content>
+						<List headerText="Products">
+							<StandardListItem title="NoteBook basic 15" counter="10"/>
+							<StandardListItem title="NoteBook basic 10" counter="20"/>
+						</List>
+					</content>
+					<footer>
+						<OverflowToolbar>
+							<ToolbarSpacer/>
+							<Button type="Accept" text="Accept"/>
+						</OverflowToolbar>
+					</footer>
 				</Page>
 			</pages>
 		</App>
